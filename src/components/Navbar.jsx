@@ -10,10 +10,10 @@ const Navbar = () => {
       <img className="mx-12 w-10" src={logo} alt="logo" />
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-      <FaLinkedin />
-      <FaGithub />
-      <FaInstagram />
-      <TfiTwitter />
+      <a href="https://www.linkedin.com/in/jayonto-dutta-plabon/"><FaLinkedin /></a>
+      <a href="https://github.com/Plabon-Dutta"><FaGithub /></a>
+      <a href="https://www.instagram.com/plabon.dutta/"><FaInstagram /></a>
+      <a href="https://x.com/plabon__dutta"><TfiTwitter /></a>
     </div>
   </nav>
 };

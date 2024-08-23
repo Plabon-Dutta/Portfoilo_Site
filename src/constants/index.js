@@ -27,6 +27,25 @@ export const EXPERIENCES = [
   },
 ];
 
+export const PUBLICATIONS = [
+  {
+    year: "May 2024",
+    journal: "Engineering Applications of Artificial Intelligence",
+    description: `Explainable federated learning for privacy-preserving bangla sign language detection.`,
+    scopus_index: "Q1",
+    impact_factor: "8",
+    link: "https://doi.org/10.1016/j.engappai.2024.108657"
+  },
+  {
+    year: "Aug 2024",
+    journal: "IEEE Access",
+    description: `Federated Learning-Based Architecture for Personalized Next Emoji Prediction for Social Media Comments.`,
+    scopus_index: "Q1",
+    impact_factor: "3.8",
+    link: "N/A"
+  },
+];
+
 export const PROJECTS = [
   {
     title: "Geasture Translator",
