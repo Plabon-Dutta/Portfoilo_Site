@@ -42,8 +42,191 @@ export const PUBLICATIONS = [
     description: `Federated Learning-Based Architecture for Personalized Next Emoji Prediction for Social Media Comments.`,
     scopus_index: "Q1",
     impact_factor: "3.8",
-    link: "N/A"
+    link: "https://ieeexplore.ieee.org/abstract/document/10663425"
   },
+
+  {
+    year: "SEP 2024",
+    journal: "Elsevier (Book Chapter)",
+    description: `Transforming Healthcare Analytics: Federated Learning for Privacy-Preserving Liver Lesion Detection and Classification`,
+    scopus_index: "Q4",
+    impact_factor: "N/A",
+    link: "In Press"
+  },
+
+  {
+    year: "SEP 2024",
+    journal: "Elsevier (Book Chapter)",
+    description: `Federated Learning Strategies for Confidential Leukemia Detection from Medical Images`,
+    scopus_index: "Q4",
+    impact_factor: "N/A",
+    link: "In Press"
+  },
+
+  {
+    year: "SEP 2024",
+    journal: "Elsevier (Book Chapter)",
+    description: `Privacy-preserving Kidney stone detection from X-ray image using federated learning`,
+    scopus_index: "Q4",
+    impact_factor: "N/A",
+    link: "In Press"
+  },
+];
+
+export const PROGRAMMING = [
+  {
+    year: "NOV 2024",
+    team_name: "UAP_Amogus",
+    description: `BUET Inter University Programming Contest 2024`,
+    rank: "68th",
+  },
+  
+  {
+    year: "JUN 2024",
+    team_name: "UAP_Tenacious_Titans",
+    description: `EEE Tech Fest Inter Department Programming Contest 2024`,
+    rank: "2nd",
+  },
+
+  {
+    year: "APR 2024",
+    team_name: "UAP_Amogus",
+    description: `IUT 11th National ICT Fest Programming Contest 2024`,
+    rank: "79th",
+  },
+
+  {
+    year: "MAR 2024",
+    team_name: "UAP_Tenacious_Titans",
+    description: `NCPC ONSITE 2023 HOSTED BY JU`,
+    rank: "139th",
+  },
+
+  {
+    year: "FEB 2024",
+    team_name: "UAP_Tenacious_Titans",
+    description: `SUST Inter University Programming Contest 2024`,
+    rank: "79th",
+  },
+
+  {
+    year: "JAN 2024",
+    team_name: "UAP_Tenacious_Titans",
+    description: `UAP Inter University Collaborative Programming Contest 1.0 (Senior)`,
+    rank: "25th",
+  },
+
+  {
+    year: "NOV 2023",
+    team_name: "UAP_Tenacious_Titans",
+    description: `ICPC DHAKA REGIONAL SITE 2023 HOSTED BY BUBT`,
+    rank: "130th",
+  },
+
+  {
+    year: "JUL 2023",
+    team_name: "UAP_Team_Alpha",
+    description: `BUET Inter University Programming Contest 2023`,
+    rank: "99th",
+  },
+
+  {
+    year: "MAR 2023",
+    team_name: "UAP_Tenacious_Titans",
+    description: `EEE Tech Fest 1.0 Presents Intra University Programming Contest -2023`,
+    rank: "3rd",
+  },
+
+  {
+    year: "JAN 2023",
+    team_name: "UAP_Tenacious_Titans",
+    description: `Ahmed Zobayer Inter University Programming Contest, UITS`,
+    rank: "38th",
+  },
+
+  {
+    year: "OCT 2022",
+    team_name: "UAP_Tenacious_Titans",
+    description: `2021 ICPC Asia Dhaka Onsite Regional Contest Hosted by BUBT`,
+    rank: "120th",
+  },
+
+  {
+    year: "JUL 2022",
+    team_name: "UAP_Team1",
+    description: `BUET Inter University Programming Contest-2022`,
+    rank: "97th",
+  },
+
+  {
+    year: "APR 2022",
+    team_name: "UAP_Trinity",
+    description: `UAP Intra University Programming Contest Junior - 2022`,
+    rank: "1st",
+  },
+
+  {
+    year: "NOV 2020",
+    team_name: "Invidual Contest",
+    description: `UAP CSE100 Spring 2020 Takeoff Contest`,
+    rank: "1st",
+  },
+
+  {
+    year: "JUL 2020",
+    team_name: "Invidual Contest",
+    description: `UAP Intra University Programming Contest Junior - 2020`,
+    rank: "5th",
+  },
+
+];
+
+export const AWARDS = [
+  {
+    year: "NOV 2024",
+    description: `Vice Chancellor's Honor Award Fall - 23`,
+  },
+
+  {
+    year: "SEP 2024",
+    description: `ICPC-JRC Scholarship - Spring - 23`,
+  },
+
+  {
+    year: "SEP 2024",
+    description: `ICPC-JRC Scholarship - Fall - 22`,
+  },
+
+  {
+    year: "SEP 2024",
+    description: `Vice Chancellor's Honor Award Fall - 23`,
+  },
+
+  {
+    year: "MAR 2024",
+    description: `Vice Chancellor's Honor Award Spring - 23`,
+  },
+
+  {
+    year: "OCT 2023",
+    description: `Vice Chancellor's Honor Award Fall - 22`,
+  },
+
+  {
+    year: "APR 2023",
+    description: `Vice Chancellor's Honor Award Spring - 22`,
+  },
+
+  {
+    year: "AUG 2022",
+    description: `Dean's Honour Award for Fall - 21`,
+  },
+
+  {
+    year: "APR 2022",
+    description: `Vice Chancellor's Honor Award Spring - 21`,
+  },
+
 ];
 
 export const PROJECTS = [
