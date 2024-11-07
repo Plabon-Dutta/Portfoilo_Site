@@ -1,54 +1,38 @@
-import { PROJECTS } from "../constants";
+import { AWARDS } from "../constants";
 import { useState } from "react";
 import { animate, motion } from "framer-motion";
 
-const Projects = () => {
+const Awards = () => {
   const [showAll, setShowAll] = useState(false);
 
-  // Show the first 3 projects if showAll is false, otherwise show all projects
-  const displayedProjects = showAll ? PROJECTS : PROJECTS.slice(0, 3);
+  // Show the first 3 contests if showAll is false, else show all contests
+  const displayedAwards = showAll ? AWARDS : AWARDS.slice(0, 3);
 
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h2 className="my-20 text-center text-4xl">Projects</h2>
+      <h2 className="my-20 text-center text-4xl">Awards & Achevements</h2>
       <div>
-        {displayedProjects.map((project, index) => (
+        {displayedAwards.map((award, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div 
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4">
-              <img 
-                src={project.image} 
-                width={150} 
-                height={150} 
-                className="mb-6 rounded" 
-                alt={project.title} 
-              />
+              <p className="mb-2 text-sm text-neutral-400">{award.year}</p>
             </motion.div>
             <motion.div 
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
-              <div>
-                {project.technologies.map((tech, index) => (
-                  <span 
-                    key={index} 
-                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
-                    {tech}
-                  </span>
-                ))}
-              </div>
+              <h6 className="mb-4 font-bold text-purple-100">{award.description}</h6>
             </motion.div>
           </div>
         ))}
 
-        {/* Toggle button to show more or fewer projects */}
-        {PROJECTS.length > 3 && (
+        {/* Button to toggle between showing all or first three contests */}
+        {AWARDS.length > 3 && (
           <div className="text-center mt-4">
             <button
               onClick={() => setShowAll(!showAll)}
@@ -63,4 +47,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Awards;
