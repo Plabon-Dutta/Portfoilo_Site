@@ -12,10 +12,17 @@ export const ABOUT_TEXT3 = `I am eager to connect with you and welcome any feedb
 
 export const EXPERIENCES = [
   {
-    year: "July 2024 - Present",
+    year: "Jan 2025 - Present",
+    role: "Software Engineer Intern",
+    company: "Datasoft Systems Bangladesh Ltd.",
+    description: `Assist in developing, testing, and maintaining software applications while collaborating with the team on coding tasks. Participate in code reviews and contribute to improving system performance and functionality.`,
+    technologies: ["Angular", "Java", "Spring Boot", "MySQL"],
+  },
+  {
+    year: "July 2024 - Dec 2024",
     role: "Teaching Assistant",
     company: "University of Asia Pacific.",
-    description: `Support the lead teacher in delivering lessons and assist in grading assignments, tests, and quizzes. Provide feedback to students on their work and maintain accurate records of student performance. Prepare instructional materials and resources and conduct small group or one-on-one tutoring sessions`,
+    description: `Support the lead teacher in delivering lessons and assist in grading assignments, tests, and quizzes. Provide feedback to students on their work and maintain accurate records of student performance. Prepare instructional materials and resources and conduct small group or one-on-one tutoring sessions.`,
     technologies: ["Computer Fundamentals", "Structerd Programming", "Java", "DSA"],
   },
   {
@@ -74,6 +81,12 @@ export const PUBLICATIONS = [
 ];
 
 export const PROGRAMMING = [
+  {
+    year: "DEC 2024",
+    team_name: "UAP_Amogus",
+    description: `ICPC DHAKA REGIONAL SITE 2024 HOSTED BY DIU`,
+    rank: "89th",
+  },
   {
     year: "NOV 2024",
     team_name: "UAP_Amogus",
@@ -270,5 +283,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "89, 3/F, Banani, Dhaka-1213",
   phoneNo: "+88 01851316950",
-  email: "connectplabon@gmail.com",
+  email: "plabondutta0@gmail.com",
 };
