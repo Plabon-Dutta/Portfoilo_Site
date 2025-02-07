@@ -7,6 +7,7 @@ import { DiMysql } from "react-icons/di";
 import { AiFillCopyrightCircle } from "react-icons/ai";
 import { BiLogoCPlusPlus } from "react-icons/bi";
 import { DiDjango } from "react-icons/di";
+import { DiAngularSimple } from "react-icons/di";
 
 // Tools
 import { DiWindows } from "react-icons/di";
@@ -103,6 +104,13 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
                 <DiMysql className="text-7xl text-cyan-400"/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(4)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <DiAngularSimple className="text-7xl text-red-400"/>
             </motion.div>
         </motion.div>
         <motion.h2 
