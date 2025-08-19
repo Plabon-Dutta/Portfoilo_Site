@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `Welcome to my portfolio! I'm Plabon, a Competitive Programmer with a passion for Programming. This space is dedicated to showcasing my work, skills, and creative journey. Here, you'll find a collection of my projects, each reflecting my dedication and expertise. Whether you're here to explore my portfolio or get in touch, I hope you find something that inspires you. Thank you for visiting, and I look forward to connecting with you!`;
+export const HERO_CONTENT = `I am a Lecturer in the Department of Computer Science and Engineering at the University of Asia Pacific (UAP), where I also completed my B.Sc. and am pursuing my M.Sc. in CSE. My research focuses on Generative AI, LLMs, Federated Learning, IoT, ML, DL, NLP, and Computer Vision. I have published in reputed journals such as Engineering Applications of Artificial Intelligence, IEEE Access, and Computers and Electrical Engineering, along with contributing book chapters for Elsevier. Beyond academics, I serve as the Co-convenor of the UAP Programming Contest Club, mentoring students in competitive programming and problem-solving.`;
 
 export const ABOUT_TEXT = `Welcome to my portfolio! I am a highly motivated and dedicated individual with a passion for continuous learning and personal development. With a strong work ethic and commitment to achieving my goals, I thrive on taking on new challenges and quickly adapting to diverse environments.`;
 export const ABOUT_TEXT2 = `In my free time, I enjoy reading, exercising, and spending quality time with friends and family. As an avid traveler, I am always seeking new adventures and experiences that broaden my perspective and enrich my personal growth.`;
@@ -12,7 +12,21 @@ export const ABOUT_TEXT3 = `I am eager to connect with you and welcome any feedb
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2025 - Present",
+    year: "July 2025 - Present",
+    role: "Lecturer",
+    company: "University of Asia Pacific",
+    description: `Deliver lectures to students, develop course materials and assessments, and evaluate student performance. Conduct research in area of expertise and supervise student projects. Provide academic guidance through office hours and advising. Participate in departmental activities and curriculum development while staying current with field developments.`,
+    technologies: ["Compiler", "Computer Graphics", "Software Engineering", "Microproceesors and Microcontrollers"],
+  },
+  {
+    year: "May 2025 - June 2025",
+    role: "Implementation Engineer",
+    company: "Datasoft Systems Bangladesh Ltd.",
+    description: `Assist in developing, testing, and maintaining software applications while collaborating with the team on coding tasks. Participate in code reviews and contribute to improving system performance and functionality.`,
+    technologies: ["Angular", "Java", "Spring Boot", "MySQL"],
+  },
+  {
+    year: "Jan 2025 - Apr 2025 ",
     role: "Software Engineer Intern",
     company: "Datasoft Systems Bangladesh Ltd.",
     description: `Assist in developing, testing, and maintaining software applications while collaborating with the team on coding tasks. Participate in code reviews and contribute to improving system performance and functionality.`,
